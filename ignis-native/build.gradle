@@ -1,0 +1,22 @@
+plugins {
+    id 'cpp-library'
+}
+
+library {
+    // Cross-platform builds
+    targetMachines = [
+            machines.linux.x86_64,
+            machines.macOS.x86_64,
+            machines.windows.x86_64
+    ]
+    baseName = "ignis_native"
+}
+
+// Custom task for JNI build integration
+tasks.register("buildJNI") {
+    group = "build"
+    description = "Compile JNI bridge code"
+    doLast {
+        println "TODO: Add gcc/clang/nvcc commands here"
+    }
+}

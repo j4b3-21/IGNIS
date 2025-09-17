@@ -1,0 +1,9 @@
+plugins {
+    // No java or cpp here – those go into subprojects
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}
