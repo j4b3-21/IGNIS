@@ -77,3 +77,7 @@ CI runs on every push/PR with a **Ubuntu/Windows/macOS build matrix**.
 
 ## 📜 License
 [MIT License](LICENSE) © 2025 IGNIS contributors
+
+## Code of Conduct
+
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
